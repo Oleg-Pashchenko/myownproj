@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  lineman_api:
+    restart: always
+    build:
+      context: .
